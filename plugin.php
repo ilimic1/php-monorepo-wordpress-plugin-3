@@ -3,12 +3,12 @@
 Plugin Name: Hello World 3
 Plugin URI: https://ilimic.from.hr
 Description: Test plugin which outputs hello in the admin, used for testing.
-Version: 1.0.14-rc.1
+Version: 1.0.15
 Author: Ivo Limić
 Author URI: https://ilimic.from.hr
 */
 
-namespace Ilimic\Plugins\HelloWorld2;
+namespace Ilimic\Plugins\HelloWorld3;
 
 use YahnisElsts\PluginUpdateChecker\v5\PucFactory;
 
@@ -23,6 +23,6 @@ $myUpdateChecker = PucFactory::buildUpdateChecker(
 $myUpdateChecker->getVcsApi()->enableReleaseAssets();
 
 function hello_world() {
-	echo '<p>Hello World 3</p>';
+	echo '<p>Hello World 3 - foo2</p>';
 }
 add_action( 'admin_notices', __NAMESPACE__ . '\hello_world' );
