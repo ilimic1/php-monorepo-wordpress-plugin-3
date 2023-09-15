@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'ilimic/hello-world-3',
-        'pretty_version' => 'v1.0.16',
-        'version' => '1.0.16.0',
-        'reference' => '2563a0e89c4d8ddbe9a2866a15f467a03e74e55a',
+        'pretty_version' => 'v1.0.17-rc.1',
+        'version' => '1.0.17.0-RC1',
+        'reference' => 'c04c936952500ac1fff78bff224fca902197fb9b',
         'type' => 'wordpress-plugin',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -11,9 +11,9 @@
     ),
     'versions' => array(
         'ilimic/hello-world-3' => array(
-            'pretty_version' => 'v1.0.16',
-            'version' => '1.0.16.0',
-            'reference' => '2563a0e89c4d8ddbe9a2866a15f467a03e74e55a',
+            'pretty_version' => 'v1.0.17-rc.1',
+            'version' => '1.0.17.0-RC1',
+            'reference' => 'c04c936952500ac1fff78bff224fca902197fb9b',
             'type' => 'wordpress-plugin',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
